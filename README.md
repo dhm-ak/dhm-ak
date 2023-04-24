@@ -28,7 +28,7 @@
 <div class="DestinyCommendations_leadership__3rXJK" style="width: 0%;"></div>
 
   </div>
-  <p class="DestinyCommendations_scoreHeader__2P-Dl">Score breakdown</p>
+  <h4 class="DestinyCommendations_scoreHeader__2P-Dl">Score breakdown</h4>
   <div class="DestinyCommendations_score__3gGCo">
       <div class="DestinyCommendations_ally__cJOkA">
           <span>Ally</span>
