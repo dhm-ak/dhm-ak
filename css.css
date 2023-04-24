@@ -1,0 +1,44 @@
+/* Styling for the link */
+      .ProfileCharacterSelector_character__3RUxf {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        width: 200px;
+        height: 120px;
+        border-radius: 10px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+      }
+
+      /* Styling for the icon */
+      .ProfileCharacterSelector_icon__29Sq5 {
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAsZ69z1tfRy4fWQj9iErOQW6HVw7gCFXcE9lHnUWNr5Vv-TiqdYEj5p_ZAk_M78BI704&usqp=CAU2');
+      }
+
+      /* Styling for the text */
+      .ProfileCharacterSelector_text__19PjR {
+        margin-left: 10px;
+      }
+
+      h4 {
+        font-size: 20px;
+        margin: 0;
+      }
+
+      h5 {
+        font-size: 16px;
+        margin: 0;
+      }
+
+      /* Styling for the light symbol */
+      .ProfileCharacterSelector_light__3vNoV {
+        font-size: 20px;
+        margin-left: auto;
+      }
