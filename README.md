@@ -11,7 +11,7 @@
       data-component="a"
       data-legacy="true"
       style="
-        background-image: url('/common/destiny2_content/icons/9502a410cf2cf83955caf5d9dce2aaab.jpg');
+        background-image: url('[/common/destiny2_content/icons/9502a410cf2cf83955caf5d9dce2aaab.jpg](https://avatars.githubusercontent.com/u/121412839?v=4)');
       "
       ><div
         class="ProfileCharacterSelector_icon__29Sq5"
