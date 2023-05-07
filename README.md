@@ -23,7 +23,3 @@
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-...
-# One Of My Websites
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
