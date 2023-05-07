@@ -2,7 +2,7 @@
 <img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=dhm-ak&show_icons=true&theme=radical" />
 <img align="left" width="36%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhm-ak&layout=compact&theme=radical" />
 
-</br>
+# My Tech Tools and Platforms
 
 ![Google Assistant](https://img.shields.io/badge/google%20assistant-4285F4?style=for-the-badge&logo=google%20assistant&logoColor=black)
 ![Ghost](https://img.shields.io/badge/ghost-000?style=for-the-badge&logo=ghost&logoColor=%23F7DF1E)
