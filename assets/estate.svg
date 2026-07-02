@@ -1,0 +1,349 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,'Cascadia Mono','JetBrains Mono','Courier New',monospace" role="img" aria-label="The Estate, sheet A-201: four detailed heritage elevations with a proposed technology retrofit shown in red. The Conservatory with solar glass is Harmonic Conservatory. The Studio with an antenna array is Chord Architect. The Gatehouse with a sensor curtain is Operation Nexus. The Observatory with a data dish is Score Analyser. An underground fibre ring links all buildings to reserved Plot five.">
+  <style>
+    .dr{stroke-dasharray:100;stroke-dashoffset:100;animation:dr 1.5s cubic-bezier(.6,0,.3,1) forwards}
+    .t{opacity:0;animation:ft .9s ease forwards}
+    @keyframes dr{to{stroke-dashoffset:0}}
+    @keyframes ft{to{opacity:1}}
+    .s1{animation-delay:.15s}.s2{animation-delay:.3s}.s3{animation-delay:.5s}
+    .s4{animation-delay:.7s}.s5{animation-delay:.95s}.s6{animation-delay:1.2s}
+    .s7{animation-delay:1.45s}.s8{animation-delay:1.7s}.s9{animation-delay:2.05s}
+    .s10{animation-delay:2.45s}
+    @media (prefers-reduced-motion: reduce){
+      .dr,.t{animation:none}
+      .dr{stroke-dashoffset:0}
+      .t{opacity:1}
+    }
+  </style>
+
+  <defs>
+    <pattern id="gridS4" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#8ECAE6" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <pattern id="gridL4" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#8ECAE6" stroke-opacity="0.1" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="700" fill="#0E2439"/>
+  <rect width="1200" height="700" fill="url(#gridS4)"/>
+  <rect width="1200" height="700" fill="url(#gridL4)"/>
+
+  <!-- frame -->
+  <rect x="14" y="14" width="1172" height="672" fill="none" stroke="#9FC9E8" stroke-width="2" pathLength="100" class="dr"/>
+  <rect x="24" y="24" width="1152" height="652" fill="none" stroke="#9FC9E8" stroke-width="0.8" opacity="0.55" pathLength="100" class="dr s1"/>
+
+  <!-- header -->
+  <text x="64" y="68" font-size="12" letter-spacing="3" fill="#7FA8C7" class="t s2">SHEET A-201 &#183; ESTATE ELEVATIONS &#183; HERITAGE FABRIC + PROPOSED RETROFIT</text>
+  <text x="62" y="114" font-size="40" font-weight="700" letter-spacing="6" fill="#EAF4FB" class="t s2">THE ESTATE</text>
+  <text x="64" y="144" font-size="13" letter-spacing="2" fill="#9FC9E8" class="t s3">ONE BUILDING PER WORK &#183; NATURE KEPT &#183; NEW SERVICES SHOWN IN RED</text>
+
+  <!-- sheet ref + legend -->
+  <g class="t s2">
+    <rect x="1044" y="44" width="112" height="52" fill="none" stroke="#9FC9E8" stroke-width="1.4"/>
+    <text x="1100" y="62" font-size="9" letter-spacing="2" fill="#7FA8C7" text-anchor="middle">SHEET NO.</text>
+    <text x="1100" y="86" font-size="19" font-weight="700" letter-spacing="2" fill="#EAF4FB" text-anchor="middle">A-201</text>
+  </g>
+  <g class="t s3">
+    <line x1="1000" y1="126" x2="1024" y2="126" stroke="#9FC9E8" stroke-width="1.6"/>
+    <text x="1032" y="129.5" font-size="8.5" letter-spacing="1" fill="#7FA8C7">EXISTING FABRIC</text>
+    <line x1="1000" y1="144" x2="1024" y2="144" stroke="#EF6351" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <text x="1032" y="147.5" font-size="8.5" letter-spacing="1" fill="#EF6351">TECH RETROFIT &#183; NEW WORK</text>
+  </g>
+
+  <!-- ground -->
+  <line x1="56" y1="520" x2="1140" y2="520" stroke="#9FC9E8" stroke-width="2.2" pathLength="100" class="dr s3"/>
+  <g stroke="#9FC9E8" stroke-width="1" opacity="0.5" class="t s5">
+    <path d="M66 520l-7 8M118 520l-7 8M170 520l-7 8M222 520l-7 8M274 520l-7 8M326 520l-7 8M378 520l-7 8M430 520l-7 8M482 520l-7 8M534 520l-7 8M586 520l-7 8M638 520l-7 8M690 520l-7 8M742 520l-7 8M794 520l-7 8M846 520l-7 8M898 520l-7 8M950 520l-7 8M1002 520l-7 8M1054 520l-7 8M1106 520l-7 8"/>
+  </g>
+
+  <!-- ==================== 1 : THE CONSERVATORY ==================== -->
+  <g stroke="#9FC9E8" fill="none">
+    <!-- plinth + piers + urns -->
+    <path d="M96 520V498h12v22M288 520V498h12v22" stroke-width="1.6" pathLength="100" class="dr s3"/>
+    <path d="M108 504H187M209 504H288" stroke-width="1.4" pathLength="100" class="dr s3"/>
+    <g stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s4">
+      <path d="M130 504v16M164 504v16M232 504v16M266 504v16"/>
+    </g>
+    <g stroke-width="1.1" pathLength="100" class="dr s4">
+      <path d="M95 486h14M97 486A5 6 0 0 0 107 486M102 493v5M97 498h10"/>
+      <path d="M287 486h14M289 486A5 6 0 0 0 299 486M294 493v5M289 498h10"/>
+    </g>
+    <!-- glazing posts -->
+    <g stroke-width="1.3" pathLength="100">
+      <path d="M108 504V414" class="dr s3"/><path d="M144 504V414" class="dr s4"/>
+      <path d="M180 504V414" class="dr s4"/><path d="M216 504V414" class="dr s4"/>
+      <path d="M252 504V414" class="dr s4"/><path d="M288 504V414" class="dr s3"/>
+    </g>
+    <!-- arched bay heads + springing -->
+    <line x1="108" y1="444" x2="288" y2="444" stroke-width="0.9" opacity="0.6" pathLength="100" class="dr s4"/>
+    <g stroke-width="1.1" pathLength="100" class="dr s4">
+      <path d="M112 444A14 14 0 0 1 140 444"/><path d="M148 444A14 14 0 0 1 176 444"/>
+      <path d="M184 444A14 14 0 0 1 212 444"/><path d="M220 444A14 14 0 0 1 248 444"/>
+      <path d="M256 444A14 14 0 0 1 284 444"/>
+    </g>
+    <g stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s4">
+      <line x1="108" y1="464" x2="288" y2="464"/><line x1="108" y1="484" x2="288" y2="484"/>
+    </g>
+    <!-- eaves -->
+    <line x1="104" y1="414" x2="292" y2="414" stroke-width="1.6" pathLength="100" class="dr s4"/>
+    <line x1="108" y1="420" x2="288" y2="420" stroke-width="0.8" opacity="0.6" pathLength="100" class="dr s4"/>
+    <!-- glazed gable + bars -->
+    <path d="M96 414L198 360L300 414" stroke-width="1.8" pathLength="100" class="dr s4"/>
+    <path d="M112 410L198 366L284 410" stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s5"/>
+    <g stroke-width="0.8" opacity="0.6" pathLength="100" class="dr s5">
+      <path d="M140 414V391M164 414V378M232 414V378M256 414V391"/>
+    </g>
+    <!-- ridge lantern -->
+    <g stroke-width="1.2" pathLength="100" class="dr s5">
+      <path d="M184 368V336M212 368V336M180 336H216M180 336L198 326L216 336"/>
+      <line x1="198" y1="326" x2="198" y2="316"/>
+    </g>
+    <circle cx="198" cy="313" r="3" stroke-width="1.2" pathLength="100" class="dr s5"/>
+    <!-- door -->
+    <g stroke-width="1.1" pathLength="100" class="dr s5">
+      <path d="M187 514V462M209 514V462M187 462A11 11 0 0 1 209 462M181 514H215"/>
+    </g>
+    <!-- topiary pair -->
+    <g stroke-width="1.1" pathLength="100" class="dr s8">
+      <path d="M164 520L166 508H174L176 520"/><circle cx="170" cy="498" r="8"/><line x1="170" y1="506" x2="170" y2="508"/>
+      <path d="M222 520L224 508H232L234 520"/><circle cx="228" cy="498" r="8"/><line x1="228" y1="506" x2="228" y2="508"/>
+    </g>
+    <!-- vine on right pier -->
+    <g stroke-width="1" opacity="0.85" pathLength="100" class="dr s8">
+      <path d="M294 520q6 -8 0 -16q-6 -8 0 -16q6 -8 0 -16"/>
+      <path d="M292 506l-5 -3M296 490l5 -3M292 476l-5 -3"/>
+    </g>
+  </g>
+
+  <!-- ==================== 2 : THE STUDIO ==================== -->
+  <g stroke="#9FC9E8" fill="none">
+    <path d="M350 520V420M538 520V420" stroke-width="2" pathLength="100" class="dr s4"/>
+    <line x1="350" y1="508" x2="538" y2="508" stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s5"/>
+    <!-- quoins -->
+    <g stroke-width="1" opacity="0.8" pathLength="100" class="dr s5">
+      <rect x="342" y="502" width="8" height="12"/><rect x="342" y="478" width="8" height="12"/><rect x="342" y="454" width="8" height="12"/><rect x="342" y="430" width="8" height="12"/>
+      <rect x="538" y="502" width="8" height="12"/><rect x="538" y="478" width="8" height="12"/><rect x="538" y="454" width="8" height="12"/><rect x="538" y="430" width="8" height="12"/>
+    </g>
+    <!-- eaves + brackets -->
+    <line x1="342" y1="420" x2="546" y2="420" stroke-width="1.8" pathLength="100" class="dr s4"/>
+    <g stroke-width="0.8" opacity="0.55" pathLength="100" class="dr s5">
+      <path d="M358 420v6M374 420v6M390 420v6M406 420v6M422 420v6M438 420v6M454 420v6M470 420v6M486 420v6M502 420v6M518 420v6M534 420v6"/>
+    </g>
+    <!-- roof + chimney + pots -->
+    <path d="M342 420L444 368L546 420" stroke-width="1.8" pathLength="100" class="dr s4"/>
+    <path d="M356 416L444 373L532 416" stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s5"/>
+    <g stroke-width="1.3" pathLength="100" class="dr s5">
+      <path d="M490 395V352M506 395V352M487 352H509M487 346H509"/>
+      <rect x="492" y="336" width="5" height="10"/><rect x="499" y="336" width="5" height="10"/>
+    </g>
+    <!-- fan-light studio window -->
+    <g stroke-width="1.4" pathLength="100" class="dr s5">
+      <path d="M374 508V452M446 508V452M374 452A36 36 0 0 1 446 452"/>
+    </g>
+    <g stroke-width="0.8" opacity="0.65" pathLength="100" class="dr s6">
+      <path d="M410 452L378.8 434M410 452L392 420.8M410 452V416M410 452L428 420.8M410 452L441.2 434"/>
+      <path d="M398 452v56M422 452v56M374 452h72"/>
+    </g>
+    <line x1="370" y1="508" x2="450" y2="508" stroke-width="1.1" pathLength="100" class="dr s5"/>
+    <!-- door + hood -->
+    <g stroke-width="1.2" pathLength="100" class="dr s6">
+      <path d="M468 514V450M496 514V450M464 450H500M462 444H502M466 444v6M494 444v6M462 514H502"/>
+    </g>
+    <!-- espalier on left wall -->
+    <g stroke-width="1.1" pathLength="100" class="dr s8">
+      <path d="M334 520V444"/>
+      <path d="M334 500H310M334 500H342M334 480H312M334 480H342M334 460H314M334 460H342"/>
+      <path d="M312 497l-4 -4M316 477l-4 -4M318 457l-4 -4"/>
+    </g>
+  </g>
+
+  <!-- ==================== 3 : THE GATEHOUSE ==================== -->
+  <g stroke="#9FC9E8" fill="none">
+    <!-- turrets -->
+    <path d="M596 520V372M640 520V384M740 520V384M784 520V372" stroke-width="2" pathLength="100" class="dr s5"/>
+    <path d="M596 384v-12h10v12h7v-12h10v12h7v-12h10v12" stroke-width="1.5" pathLength="100" class="dr s5"/>
+    <path d="M740 384v-12h10v12h7v-12h10v12h7v-12h10v12" stroke-width="1.5" pathLength="100" class="dr s5"/>
+    <g stroke-width="0.8" opacity="0.6" pathLength="100" class="dr s6">
+      <line x1="596" y1="448" x2="640" y2="448"/><line x1="740" y1="448" x2="784" y2="448"/>
+      <path d="M600 390l-4 5M610 390l-4 5M620 390l-4 5M630 390l-4 5M744 390l-4 5M754 390l-4 5M764 390l-4 5M774 390l-4 5"/>
+    </g>
+    <!-- arrow slits + turret windows -->
+    <g stroke-width="1.3" pathLength="100" class="dr s6">
+      <path d="M618 408V432M611 420H625M762 408V432M755 420H769"/>
+      <rect x="606" y="468" width="20" height="26"/><path d="M603 465H629"/>
+      <rect x="754" y="468" width="20" height="26"/><path d="M751 465H777"/>
+    </g>
+    <!-- centre block + battlements + clock -->
+    <path d="M640 396v-10h12v10h10v-10h12v10h10v-10h12v10h10v-10h12v10h10v-10h12v10" stroke-width="1.5" pathLength="100" class="dr s5"/>
+    <circle cx="690" cy="407" r="8" stroke-width="1.2" pathLength="100" class="dr s6"/>
+    <path d="M690 407V401M690 407L695 407" stroke-width="1" pathLength="100" class="dr s6"/>
+    <!-- arch, voussoirs, portcullis -->
+    <g stroke-width="1.6" pathLength="100" class="dr s5">
+      <path d="M662 520V452M718 520V452M662 452A28 28 0 0 1 718 452"/>
+    </g>
+    <path d="M656 452A34 34 0 0 1 724 452" stroke-width="1.1" pathLength="100" class="dr s6"/>
+    <g stroke-width="0.9" opacity="0.8" pathLength="100" class="dr s6">
+      <path d="M690 424V418M670.2 432.2L666 428M709.8 432.2L714 428"/>
+    </g>
+    <g stroke-width="0.8" opacity="0.65" pathLength="100" class="dr s6">
+      <path d="M672 430V482M684 426V482M696 426V482M708 430V482"/>
+      <path d="M666 448H714M666 466H714"/>
+      <path d="M672 482l2 7M684 482l2 7M696 482l2 7M708 482l2 7"/>
+    </g>
+    <path d="M596 506H662M718 506H784" stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s6"/>
+    <!-- flag -->
+    <g stroke-width="1.1" pathLength="100" class="dr s6">
+      <path d="M618 372V346M618 346l16 5l-16 5"/>
+    </g>
+    <!-- ivy on right turret + grass -->
+    <g stroke-width="1" opacity="0.85" pathLength="100" class="dr s8">
+      <path d="M780 520q8 -12 0 -24q-8 -12 0 -24q8 -12 0 -24q-8 -10 0 -20"/>
+      <path d="M778 498l6 -3M782 474l-6 -3M778 450l6 -3M782 430l-6 -3"/>
+      <path d="M650 520l3 -7l3 7M730 520l3 -7l3 7"/>
+    </g>
+  </g>
+
+  <!-- ==================== 4 : THE OBSERVATORY ==================== -->
+  <g stroke="#9FC9E8" fill="none">
+    <path d="M842 520V448M1030 520V448" stroke-width="2" pathLength="100" class="dr s6"/>
+    <!-- entablature + dentils + plinth -->
+    <line x1="838" y1="448" x2="1034" y2="448" stroke-width="1.8" pathLength="100" class="dr s6"/>
+    <line x1="842" y1="456" x2="1030" y2="456" stroke-width="0.9" pathLength="100" class="dr s6"/>
+    <line x1="846" y1="452" x2="1026" y2="452" stroke-width="2" stroke-dasharray="3 5" opacity="0.5" class="t s7"/>
+    <path d="M842 512H921M951 512H1030" stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s7"/>
+    <!-- pilasters -->
+    <g stroke-width="1" opacity="0.85" pathLength="100" class="dr s7">
+      <path d="M856 512V456M862 512V456M854 456h10M854 460h10M854 508h10"/>
+      <path d="M906 512V456M912 512V456M904 456h10M904 460h10M904 508h10"/>
+      <path d="M960 512V456M966 512V456M958 456h10M958 460h10M958 508h10"/>
+      <path d="M1010 512V456M1016 512V456M1008 456h10M1008 460h10M1008 508h10"/>
+    </g>
+    <!-- windows + door -->
+    <g stroke-width="1.2" pathLength="100" class="dr s7">
+      <rect x="872" y="468" width="24" height="36"/><path d="M869 468L884 459L899 468M869 506H899"/>
+      <rect x="976" y="468" width="24" height="36"/><path d="M973 468L988 459L1003 468M973 506H1003"/>
+      <path d="M925 514V472M947 514V472M925 472A11 11 0 0 1 947 472M921 514V468M951 514V468M917 462H955M916 514H956"/>
+    </g>
+    <!-- drum -->
+    <g stroke-width="1.4" pathLength="100" class="dr s7">
+      <path d="M872 448V414M1000 448V414M872 414H1000"/>
+    </g>
+    <g stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s7">
+      <path d="M904 448V414M936 448V414M968 448V414"/>
+    </g>
+    <!-- dome + ribs + slit + telescope + vane -->
+    <path d="M872 414A64 64 0 0 1 1000 414" stroke-width="1.8" pathLength="100" class="dr s7"/>
+    <g stroke-width="0.8" opacity="0.5" pathLength="100" class="dr s8">
+      <path d="M894 414A50 58 0 0 1 978 414M914 414A34 60 0 0 1 958 414"/>
+    </g>
+    <g stroke-width="1.1" pathLength="100" class="dr s8">
+      <path d="M962 358L974 408M972 355L982 404"/>
+    </g>
+    <g pathLength="100" class="dr s8">
+      <path d="M968 380L998 350" stroke-width="2"/>
+      <path d="M966 377L996 347" stroke-width="1"/>
+      <path d="M966 381l-4 4" stroke-width="1.2"/>
+    </g>
+    <circle cx="1000" cy="347" r="3" stroke-width="1.2" pathLength="100" class="dr s8"/>
+    <g stroke-width="1.1" pathLength="100" class="dr s8">
+      <path d="M936 350V342M928 344H944M944 344l-5 -3M944 344l-5 3"/>
+    </g>
+    <!-- stars -->
+    <g stroke-width="1" opacity="0.7" class="t s8">
+      <path d="M877 330h6M880 327v6M937 316h6M940 313v6M993 334h6M996 331v6" stroke="#9FC9E8"/>
+    </g>
+  </g>
+
+  <!-- ==================== NATURE : trees, hedges, cypress ==================== -->
+  <g stroke="#9FC9E8" fill="none" stroke-width="1.2" pathLength="100" class="dr s8">
+    <circle cx="74" cy="484" r="15"/><circle cx="64" cy="494" r="9"/><line x1="74" y1="499" x2="74" y2="520"/>
+    <circle cx="566" cy="482" r="16"/><circle cx="556" cy="493" r="9"/><circle cx="577" cy="493" r="8"/><line x1="566" y1="498" x2="566" y2="520"/>
+    <path d="M798 520V504M830 520V504M798 504q8 -8 16 0q8 -8 16 0"/>
+    <path d="M1048 408C1041 442 1040 482 1046 518M1048 408C1055 442 1056 482 1050 518M1048 518V520"/>
+  </g>
+
+  <!-- ==================== TECH RETROFIT LAYER (red, draws last) ==================== -->
+  <g stroke="#EF6351" fill="none" class="t s9">
+    <!-- conservatory: solar glass + cable -->
+    <path d="M114 404L133.4 393.7L130.1 387.5L110.7 397.8Z" stroke-width="1.2"/>
+    <path d="M139 391L158.4 380.7L155.1 374.5L135.7 384.8Z" stroke-width="1.2"/>
+    <path d="M163 378.4L182.4 368.1L179.1 361.9L159.7 371.7Z" stroke-width="1.2"/>
+    <path d="M119 398l8 -4M144 385l8 -4M168 372l8 -4" stroke-width="0.8" opacity="0.8"/>
+    <path d="M110 401L96 414V520" stroke-width="1" stroke-dasharray="4 3"/>
+    <rect x="86" y="466" width="8" height="10" stroke-width="1.1"/>
+    <!-- studio: antenna array + dish + cable -->
+    <path d="M444 368V318" stroke-width="1.4"/>
+    <path d="M436 328H452M438 340H450M440 352H448" stroke-width="1.1"/>
+    <circle cx="444" cy="315" r="2" stroke-width="1.1"/>
+    <path d="M506 353h5" stroke-width="1.1"/>
+    <path d="M511 344A9 10 0 0 1 511 362" stroke-width="1.3"/>
+    <path d="M513 353l6 -3" stroke-width="1"/>
+    <circle cx="520.5" cy="349.5" r="1.5" stroke-width="1"/>
+    <path d="M542 424V520" stroke-width="1" stroke-dasharray="4 3"/>
+    <!-- gatehouse: sensor curtain + camera + access panel -->
+    <path d="M664 470H716M664 484H716M664 498H716" stroke-width="1" stroke-dasharray="4 4"/>
+    <path d="M662 456l-8 -4" stroke-width="1.1"/>
+    <rect x="644" y="445" width="10" height="7" stroke-width="1.1"/>
+    <path d="M644 448l-4 2" stroke-width="1"/>
+    <rect x="726" y="478" width="10" height="14" stroke-width="1.1"/>
+    <path d="M739 481A7 7 0 0 1 739 495M739 484A4 4 0 0 1 739 492" stroke-width="0.9"/>
+    <!-- observatory: comms dish + downlink -->
+    <path d="M872 430h-6" stroke-width="1.1"/>
+    <path d="M866 422A9 10 0 0 0 866 440" stroke-width="1.3"/>
+    <path d="M864 431l-7 3" stroke-width="1"/>
+    <circle cx="855.5" cy="435.5" r="1.5" stroke-width="1"/>
+    <path d="M1030 452V520" stroke-width="1" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- fibre ring main (red, underground) -->
+  <g stroke="#EF6351" fill="none" class="t s10">
+    <path d="M140 530H1099" stroke-width="1.1" stroke-dasharray="7 5"/>
+    <path d="M198 530V520M444 530V520M690 530V520M936 530V520M1099 530V520" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="198" cy="530" r="2.5"/><circle cx="444" cy="530" r="2.5"/><circle cx="690" cy="530" r="2.5"/><circle cx="936" cy="530" r="2.5"/><circle cx="1099" cy="530" r="2.5"/>
+  </g>
+  <text x="56" y="541" font-size="8.5" letter-spacing="1" fill="#EF6351" class="t s10">PROPOSED FIBRE RING MAIN</text>
+
+  <!-- reserved plot -->
+  <g class="t s9">
+    <rect x="1064" y="430" width="70" height="90" fill="none" stroke="#EF6351" stroke-width="1.4" stroke-dasharray="8 6"/>
+    <path d="M1060 516l8 8M1068 516l-8 8M1130 516l8 8M1138 516l-8 8" stroke="#EF6351" stroke-width="1"/>
+    <text x="1099" y="452" font-size="12" font-weight="700" letter-spacing="2" fill="#EF6351" text-anchor="middle">PLOT V</text>
+    <text x="1099" y="466" font-size="10" letter-spacing="2" fill="#EF6351" text-anchor="middle">RESERVED</text>
+    <text x="1099" y="480" font-size="8.5" letter-spacing="1" fill="#EF6351" opacity="0.85" text-anchor="middle">AI ACT &#183; ISC2</text>
+  </g>
+  <g stroke="#9FC9E8" fill="none" stroke-width="1.1" class="t s10">
+    <path d="M1099 520V500M1099 508l-6 -6M1099 504l6 -6"/>
+    <circle cx="1099" cy="494" r="7" opacity="0.85"/>
+  </g>
+
+  <!-- ==================== CAPTIONS ==================== -->
+  <g text-anchor="middle">
+    <g class="t s5">
+      <text x="198" y="556" font-size="10" letter-spacing="3" fill="#7FA8C7">THE CONSERVATORY</text>
+      <text x="198" y="578" font-size="16" font-weight="700" letter-spacing="1" fill="#EAF4FB">HARMONIC CONSERVATORY</text>
+      <text x="198" y="598" font-size="11.5" letter-spacing="0.5" fill="#9FC9E8">MUSIC-ED SAAS &#183; WEB AUDIO API</text>
+      <text x="198" y="616" font-size="10" letter-spacing="2" fill="#7FA8C7">IN SERVICE</text>
+    </g>
+    <g class="t s6">
+      <text x="444" y="556" font-size="10" letter-spacing="3" fill="#7FA8C7">THE STUDIO</text>
+      <text x="444" y="578" font-size="16" font-weight="700" letter-spacing="1" fill="#EAF4FB">CHORD ARCHITECT</text>
+      <text x="444" y="598" font-size="11.5" letter-spacing="0.5" fill="#9FC9E8">JUCE VST3/AU &#183; MIDI EXPORT</text>
+      <text x="444" y="616" font-size="10" letter-spacing="2" fill="#7FA8C7">TOPPED OUT</text>
+    </g>
+    <g class="t s7">
+      <text x="690" y="556" font-size="10" letter-spacing="3" fill="#7FA8C7">THE GATEHOUSE</text>
+      <text x="690" y="578" font-size="16" font-weight="700" letter-spacing="1" fill="#EAF4FB">OPERATION NEXUS</text>
+      <text x="690" y="598" font-size="11.5" letter-spacing="0.5" fill="#9FC9E8">CRISIS-SIM APP &#183; NEXT.JS</text>
+      <text x="690" y="616" font-size="10" letter-spacing="2" fill="#7FA8C7">DELIVERED 2026</text>
+    </g>
+    <g class="t s8">
+      <text x="936" y="556" font-size="10" letter-spacing="3" fill="#7FA8C7">THE OBSERVATORY</text>
+      <text x="936" y="578" font-size="16" font-weight="700" letter-spacing="1" fill="#EAF4FB">SCORE ANALYSER</text>
+      <text x="936" y="598" font-size="11.5" letter-spacing="0.5" fill="#9FC9E8">MIR PIPELINE &#183; 81.85% POP909</text>
+      <text x="936" y="616" font-size="10" letter-spacing="2" fill="#7FA8C7">COMMISSIONED</text>
+    </g>
+  </g>
+
+  <!-- grounds note -->
+  <text x="64" y="650" font-size="11.5" letter-spacing="1" fill="#7FA8C7" class="t s9">SITE &amp; GROUNDS: BSc SECURITY STUDIES &#183; LEIDEN UNIVERSITY, THE HAGUE&#160;&#160;|&#160;&#160;ADV. DIPLOMA SOUND ENGINEERING &#183; ABBEY ROAD INSTITUTE AMS</text>
+</svg>
