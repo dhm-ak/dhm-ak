@@ -5,7 +5,7 @@
 **BSc Security Studies** at Leiden University, The Hague, building toward **AI governance and cybersecurity**. Trained as a sound engineer first (Abbey Road Institute Amsterdam); I would rather build the thing than write the memo about the thing.
 
 <div align="center">
-  <img src="assets/section.svg" width="100%" alt="Section A-A: building cross-section. Foundation: Leiden Security Studies and Abbey Road audio engineering. Level 1: Harmonic Conservatory. Level 2: Chord Architect. Level 3: Operation Nexus. Level 4: Score Analyser. Level 5 under construction, tower crane at work."/>
+  <img src="assets/estate.svg" width="100%" alt="The Estate, sheet A-201: four detailed heritage elevations with nature and a red technology retrofit. The Conservatory with solar glass is Harmonic Conservatory. The Studio with an antenna array is Chord Architect. The Gatehouse with a sensor curtain is Operation Nexus. The Observatory with a data dish is Score Analyser. An underground fibre ring links everything to reserved Plot five."/>
 </div>
 
 <div align="center">
